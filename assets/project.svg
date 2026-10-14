@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150" role="img" aria-label="log-analyser: beginner-friendly Python log analyser that detects brute-force attempts and unusual-hour logins">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3fb9a8"/>
+      <stop offset="1" stop-color="#58a6ff"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .mono { font-family: 'Cascadia Code','SF Mono',Consolas,'Liberation Mono',monospace; }
+    .name { font-size: 22px; font-weight: 700; fill: #e6edf3; }
+    .desc { font-size: 14px; fill: #8b949e; }
+    .meta { font-size: 12px; fill: #8b949e; }
+    .glow { animation: glow 3.5s ease-in-out infinite; }
+    @keyframes glow { 0%,100% { stroke-opacity: 0.25; } 50% { stroke-opacity: 0.9; } }
+    .blink { animation: blink 1.2s steps(2,start) infinite; }
+    @keyframes blink { to { visibility: hidden; } }
+  </style>
+
+  <rect x="1.5" y="1.5" width="897" height="147" rx="12" fill="#0d1117" stroke="url(#edge)" stroke-width="1.5" class="glow"/>
+
+  <g class="mono">
+    <text x="32" y="44" class="meta">~/projects/</text>
+    <text x="32" y="74" class="name">log-analyser<tspan fill="#3fb9a8" class="blink">_</tspan></text>
+    <text x="32" y="100" class="desc">Beginner-friendly Python log analyser that detects</text>
+    <text x="32" y="120" class="desc">brute-force attempts and unusual-hour logins.</text>
+
+    <circle cx="700" cy="40" r="5" fill="#3572A5"/>
+    <text x="714" y="44" class="meta">Python</text>
+    <text x="780" y="44" class="meta">view repo →</text>
+  </g>
+
+  <!-- animated log lines -->
+  <g class="mono" font-size="11" fill="#3fb9a8" opacity="0.6">
+    <text x="560" y="84">Failed password for root</text>
+    <text x="560" y="102" fill="#ff7b72">! 5 failures in 60s</text>
+    <text x="560" y="120" fill="#8b949e">03:12 login: odd hour</text>
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite"/>
+  </g>
+</svg>

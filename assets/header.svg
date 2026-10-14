@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-label="0xrcph — linux, networking, security">
+  <defs>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e6edf3"/>
+      <stop offset="1" stop-color="#3fb9a8"/>
+    </linearGradient>
+    <linearGradient id="rain" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="rainMask">
+      <rect x="600" y="34" width="290" height="216" fill="url(#rain)"/>
+    </mask>
+    <clipPath id="win"><rect x="0" y="0" width="900" height="260" rx="14"/></clipPath>
+    <clipPath id="c1"><rect x="60" y="136" height="22" width="0"><animate attributeName="width" values="0;0;67.2;67.2;0" keyTimes="0;0.0357;0.0929;0.96;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c2"><rect x="60" y="160" height="22" width="0"><animate attributeName="width" values="0;0;386.4;386.4;0" keyTimes="0;0.1286;0.2857;0.96;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c3"><rect x="60" y="184" height="22" width="0"><animate attributeName="width" values="0;0;109.2;109.2;0" keyTimes="0;0.3429;0.4143;0.96;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c4"><rect x="60" y="208" height="22" width="0"><animate attributeName="width" values="0;0;470.4;470.4;0" keyTimes="0;0.45;0.6786;0.96;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+  <style>
+    .mono { font-family: 'Cascadia Code','SF Mono',Consolas,'Liberation Mono',monospace; }
+    .line { font-size: 14px; fill: #8b949e; }
+    .accent { fill: #3fb9a8; }
+    .name { font-size: 58px; font-weight: 700; }
+  </style>
+
+  <g clip-path="url(#win)">
+    <rect width="900" height="260" fill="#0d1117"/>
+
+    <!-- faint grid -->
+    <g stroke="#3fb9a8" stroke-opacity="0.05">
+      <path d="M0 64H900M0 104H900M0 144H900M0 184H900M0 224H900"/>
+      <path d="M60 34V260M180 34V260M300 34V260M420 34V260M540 34V260M660 34V260M780 34V260"/>
+    </g>
+
+    <!-- falling code -->
+    <g class="mono" font-size="13" fill="#3fb9a8" opacity="0.35" mask="url(#rainMask)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 -60;0 0" dur="3s" repeatCount="indefinite"/>
+        <text x="630" y="30">1<tspan x="630" dy="18">0</tspan><tspan x="630" dy="18">1</tspan><tspan x="630" dy="18">1</tspan><tspan x="630" dy="18">0</tspan><tspan x="630" dy="18">x</tspan><tspan x="630" dy="18">1</tspan><tspan x="630" dy="18">0</tspan><tspan x="630" dy="18">1</tspan><tspan x="630" dy="18">0</tspan><tspan x="630" dy="18">1</tspan><tspan x="630" dy="18">1</tspan><tspan x="630" dy="18">0</tspan><tspan x="630" dy="18">1</tspan></text>
+        <text x="670" y="10">0<tspan x="670" dy="18">1</tspan><tspan x="670" dy="18">0</tspan><tspan x="670" dy="18">f</tspan><tspan x="670" dy="18">1</tspan><tspan x="670" dy="18">0</tspan><tspan x="670" dy="18">0</tspan><tspan x="670" dy="18">1</tspan><tspan x="670" dy="18">1</tspan><tspan x="670" dy="18">0</tspan><tspan x="670" dy="18">1</tspan><tspan x="670" dy="18">0</tspan><tspan x="670" dy="18">0</tspan><tspan x="670" dy="18">1</tspan><tspan x="670" dy="18">0</tspan></text>
+        <text x="710" y="40">1<tspan x="710" dy="18">1</tspan><tspan x="710" dy="18">0</tspan><tspan x="710" dy="18">0</tspan><tspan x="710" dy="18">1</tspan><tspan x="710" dy="18">a</tspan><tspan x="710" dy="18">0</tspan><tspan x="710" dy="18">1</tspan><tspan x="710" dy="18">0</tspan><tspan x="710" dy="18">1</tspan><tspan x="710" dy="18">1</tspan><tspan x="710" dy="18">0</tspan><tspan x="710" dy="18">1</tspan></text>
+        <text x="750" y="0">0<tspan x="750" dy="18">0</tspan><tspan x="750" dy="18">1</tspan><tspan x="750" dy="18">1</tspan><tspan x="750" dy="18">0</tspan><tspan x="750" dy="18">1</tspan><tspan x="750" dy="18">0</tspan><tspan x="750" dy="18">e</tspan><tspan x="750" dy="18">1</tspan><tspan x="750" dy="18">0</tspan><tspan x="750" dy="18">0</tspan><tspan x="750" dy="18">1</tspan><tspan x="750" dy="18">1</tspan><tspan x="750" dy="18">0</tspan><tspan x="750" dy="18">1</tspan></text>
+        <text x="790" y="25">1<tspan x="790" dy="18">0</tspan><tspan x="790" dy="18">1</tspan><tspan x="790" dy="18">0</tspan><tspan x="790" dy="18">0</tspan><tspan x="790" dy="18">1</tspan><tspan x="790" dy="18">1</tspan><tspan x="790" dy="18">0</tspan><tspan x="790" dy="18">7</tspan><tspan x="790" dy="18">1</tspan><tspan x="790" dy="18">0</tspan><tspan x="790" dy="18">1</tspan><tspan x="790" dy="18">0</tspan></text>
+        <text x="830" y="5">0<tspan x="830" dy="18">1</tspan><tspan x="830" dy="18">1</tspan><tspan x="830" dy="18">0</tspan><tspan x="830" dy="18">1</tspan><tspan x="830" dy="18">0</tspan><tspan x="830" dy="18">1</tspan><tspan x="830" dy="18">1</tspan><tspan x="830" dy="18">0</tspan><tspan x="830" dy="18">0</tspan><tspan x="830" dy="18">1</tspan><tspan x="830" dy="18">0</tspan><tspan x="830" dy="18">1</tspan><tspan x="830" dy="18">0</tspan><tspan x="830" dy="18">1</tspan></text>
+      </g>
+    </g>
+
+    <!-- scan line -->
+    <rect x="0" y="34" width="900" height="2" fill="#3fb9a8" opacity="0.18">
+      <animate attributeName="y" values="34;258" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- title bar -->
+    <rect width="900" height="34" fill="#161b22"/>
+    <circle cx="22" cy="17" r="6" fill="#ff5f56"/>
+    <circle cx="42" cy="17" r="6" fill="#ffbd2e"/>
+    <circle cx="62" cy="17" r="6" fill="#27c93f"/>
+    <text x="450" y="22" class="mono" font-size="12" fill="#8b949e" text-anchor="middle">0xrcph@home: ~</text>
+
+    <!-- name with glitch layers -->
+    <g class="mono name">
+      <text x="60" y="100" fill="#ff3b6b" opacity="0">0xrcph
+        <animate attributeName="opacity" values="0;0;0.8;0;0.7;0;0" keyTimes="0;0.55;0.57;0.59;0.61;0.63;1" dur="5s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 0;-4 1;3 -1;-2 0;0 0;0 0" keyTimes="0;0.55;0.57;0.59;0.61;0.63;1" dur="5s" repeatCount="indefinite"/>
+      </text>
+      <text x="60" y="100" fill="#58a6ff" opacity="0">0xrcph
+        <animate attributeName="opacity" values="0;0;0.8;0;0.7;0;0" keyTimes="0;0.55;0.57;0.59;0.61;0.63;1" dur="5s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 0;4 -1;-3 1;2 0;0 0;0 0" keyTimes="0;0.55;0.57;0.59;0.61;0.63;1" dur="5s" repeatCount="indefinite"/>
+      </text>
+      <text x="60" y="100" fill="url(#name)" opacity="0">0xrcph
+        <animate attributeName="opacity" values="0;1" dur="0.8s" fill="freeze"/>
+      </text>
+    </g>
+
+    <!-- terminal lines -->
+    <g class="mono line">
+      <g clip-path="url(#c1)"><text x="60" y="150" textLength="67.2" lengthAdjust="spacingAndGlyphs"><tspan class="accent">$</tspan> whoami</text></g>
+      <g clip-path="url(#c2)"><text x="60" y="174" textLength="386.4" lengthAdjust="spacingAndGlyphs" fill="#e6edf3">0xrcph  //  linux · networking · cybersecurity</text></g>
+      <g clip-path="url(#c3)"><text x="60" y="198" textLength="109.2" lengthAdjust="spacingAndGlyphs"><tspan class="accent">$</tspan> echo $MOTTO</text></g>
+      <g clip-path="url(#c4)"><text x="60" y="222" textLength="470.4" lengthAdjust="spacingAndGlyphs" fill="#3fb9a8">understand it, then break it, then understand it better.</text></g>
+    </g>
+
+    <!-- cursor follows the typing -->
+    <rect width="8" height="17" fill="#3fb9a8" x="60" y="136">
+      <animate attributeName="x" values="60;60;127.2;60;60;446.4;60;60;169.2;60;60;530.4;530.4;530.4" keyTimes="0;0.0357;0.0929;0.0939;0.1286;0.2857;0.2867;0.3429;0.4143;0.4153;0.45;0.6786;0.96;1" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="136;136;136;160;160;160;184;184;184;208;208;208;208;208" keyTimes="0;0.0357;0.0929;0.0939;0.1286;0.2857;0.2867;0.3429;0.4143;0.4153;0.45;0.6786;0.96;1" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- window border -->
+    <rect x="1" y="1" width="898" height="258" rx="13" fill="none" stroke="#3fb9a8" stroke-width="1.5" stroke-opacity="0.5">
+      <animate attributeName="stroke-opacity" values="0.25;0.8;0.25" dur="4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
