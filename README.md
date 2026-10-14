@@ -14,10 +14,6 @@
 
 <br><br>
 
-<img src="assets/hacker.svg" alt="Animated illustration of a nerdy kid with glasses and headphones typing code at night" width="100%"/>
-
-<br><br>
-
 <a href="https://github.com/0xrcph/log-analyser">
   <img src="assets/project.svg" alt="log-analyser: Python log analyser that detects brute-force attempts and unusual-hour logins" width="100%"/>
 </a>
