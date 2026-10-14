@@ -14,6 +14,14 @@
 
 <br><br>
 
+<a href="https://github.com/0xrcph/cs2-config">
+  <img src="assets/project-cs2.svg" alt="cs2-config: autoexec and practice configs for Counter-Strike 2, with a web crosshair and config builder" width="100%"/>
+</a>
+
+<sub><a href="https://0xrcph.github.io/cs2-config/">open the web builder →</a></sub>
+
+<br>
+
 <a href="https://github.com/0xrcph/log-analyser">
   <img src="assets/project.svg" alt="log-analyser: Python log analyser that detects brute-force attempts and unusual-hour logins" width="100%"/>
 </a>
