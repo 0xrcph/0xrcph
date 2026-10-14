@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="64" viewBox="0 0 480 64" role="img" aria-label="Open the CS2 config builder on the web">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f5a623"/>
+      <stop offset="1" stop-color="#ffcb52"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="pill"><rect x="2" y="2" width="476" height="60" rx="30"/></clipPath>
+  </defs>
+  <style>
+    .mono { font-family: 'Cascadia Code','SF Mono',Consolas,'Liberation Mono',monospace; }
+  </style>
+
+  <!-- pulsing outer ring -->
+  <rect x="1" y="1" width="478" height="62" rx="31" fill="none" stroke="#f5a623" stroke-width="2" opacity="0.6">
+    <animate attributeName="opacity" values="0.15;0.8;0.15" dur="2.4s" repeatCount="indefinite"/>
+  </rect>
+
+  <rect x="2" y="2" width="476" height="60" rx="30" fill="url(#bg)"/>
+
+  <!-- shimmer sweep -->
+  <g clip-path="url(#pill)">
+    <rect x="-120" y="0" width="120" height="64" fill="url(#shine)" transform="skewX(-20)">
+      <animate attributeName="x" values="-160;560" dur="3.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- crosshair icon -->
+  <g transform="translate(44 32)">
+    <g stroke="#111" stroke-width="2.4" stroke-linecap="round" fill="none">
+      <circle r="12"/>
+      <path d="M0 -17V-6M0 6V17M-17 0H-6M6 0H17"/>
+      <circle r="1.6" fill="#111" stroke="none"/>
+      <animateTransform attributeName="transform" type="rotate" values="0;0;90;90" keyTimes="0;0.6;0.8;1" dur="4s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <text x="240" y="39" class="mono" font-size="17" font-weight="700" fill="#111" text-anchor="middle" letter-spacing="1">OPEN CS2 CONFIG BUILDER</text>
+
+  <!-- nudging arrow -->
+  <g stroke="#111" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M428 32H448M441 25L448 32L441 39">
+      <animateTransform attributeName="transform" type="translate" values="0 0;6 0;0 0" dur="1.4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>

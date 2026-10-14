@@ -18,7 +18,9 @@
   <img src="assets/project-cs2.svg" alt="cs2-config: autoexec and practice configs for Counter-Strike 2, with a web crosshair and config builder" width="100%"/>
 </a>
 
-<sub><a href="https://0xrcph.github.io/cs2-config/">open the web builder →</a></sub>
+<a href="https://0xrcph.github.io/cs2-config/?ref=profile">
+  <img src="assets/button-cs2.svg" alt="Open CS2 config builder" width="420"/>
+</a>
 
 <br>
 
